@@ -7,7 +7,7 @@ Feature: Add product to chart
     When User input "arcaorye@gmail.com" as a email "tokped8888" as a password
     Then User click button Masuk
     And User already on home page
-    When User search for "Sample Product"
+    When User search for "Sample Product" as product
     And User add "Sample Product" to cart
     Then User should see "Sample Product" in the cart
     When User proceeds to checkout

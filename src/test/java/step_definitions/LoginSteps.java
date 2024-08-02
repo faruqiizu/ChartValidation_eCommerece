@@ -51,7 +51,7 @@ public class LoginSteps {
         Assert.assertTrue(loginPage.setSearchBarDashboard());
     }
 
-    @When("User search for {string}")
+    @When("User search for {string} as product")
     public void userSearchFor(String arg0) {
     }
 

@@ -23,7 +23,7 @@ public class Hooks {
 
 
         driver = new ChromeDriver(co);
-        driverWait = new WebDriverWait(driver, 5);
+        driverWait = new WebDriverWait(driver, 10);
 
         String appUrl = "https://www.tokopedia.com/";
         driver.get(appUrl);//fungsi untuk membuka link html
